@@ -1,0 +1,7 @@
+{
+    "name": "DuckDB Playground",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/eitsupi/devcontainer-features/duckdb-cli:1": {}
+    }
+}
