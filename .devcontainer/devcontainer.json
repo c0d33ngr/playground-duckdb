@@ -3,7 +3,10 @@
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
         "ghcr.io/eitsupi/devcontainer-features/duckdb-cli:1": {},
-        "ghcr.io/devcontainers/features/python:1": {}
-    },
-    "postCreateCommand": "pip install duckdb matplotlib"
+        "ghcr.io/devcontainers/features/python:1": {
+            "options": {
+                "toolsToInstall": "${default},duckdb,matplotlib"
+            }
+        }
+    }
 }
