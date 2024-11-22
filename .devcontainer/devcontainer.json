@@ -5,5 +5,5 @@
         "ghcr.io/eitsupi/devcontainer-features/duckdb-cli:1": {},
         "ghcr.io/devcontainers/features/python:1": {}
     },
-    "postCreateCommand": "pip install duckdb matplotlib"
+    "postCreateCommand": "pip install duckdb matplotlib pandas"
 }
