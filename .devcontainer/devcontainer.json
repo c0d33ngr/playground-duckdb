@@ -5,5 +5,9 @@
         "ghcr.io/eitsupi/devcontainer-features/duckdb-cli:1": {},
         "ghcr.io/devcontainers/features/python:1": {}
     },
+    "onCreateCommand": {
+      "update": "sudo apt update && sudo apt upgrade -y",
+      "ownership": "sudo chown -R $USER:$USER ${containerWorkspaceFolder}"
+    },
     "postCreateCommand": "pip install duckdb matplotlib pandas"
 }
